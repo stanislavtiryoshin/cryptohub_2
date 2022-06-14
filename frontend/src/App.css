@@ -1,0 +1,192 @@
+:root {
+  --bg: #030408;
+  --bg-dark: #030408;
+  --txt: #fff;
+  --blue: rgb(123, 210, 213);
+  --dark-blue: #1e5688;
+  --txt-pink: rgb(173, 2, 167);
+  --gold: rgb(239, 203, 44);
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+}
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: radial-gradient(
+    #786600 0%,
+    #260021 30%,
+    #030408 100%
+  );
+  background-size: 200rem 200rem;
+  background-position: left 0 top -100rem;
+  color: #fff;
+}
+h1, h2, h3, h4 {
+  font-family: 'Titillium Web', sans-serif;
+}
+.App {
+  overflow-x: hidden;
+  width: 100%;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.cta-btn {
+  background-color: var(--blue);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.3rem;
+  border: none;
+  padding: 0.5rem 1.7rem;
+}
+.cta-btn:hover {
+  color: var(--bg-dark);
+  background-color: #fff;
+}
+
+.home-title {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+  color: var(--gold)
+}
+.home-title a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+.home-title a:hover {
+  color:#ad02a7;
+}
+
+.auth-box h1 {
+  color: var(--txt-pink)
+}
+.auth-box {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: fit-content;
+}
+.auth-form input {
+  width: 20rem;
+  padding: 0.5rem 1rem;
+  font-family: 'Space Mono';
+}
+#submit-btn {
+  margin-top: 2rem;
+  width: 10rem;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--txt-pink)
+}
+#submit-btn:hover {
+  color: var(--txt);
+  background-color: var(--txt-pink);
+}
+.currencies-page, .exchanges-page, .login-page, .reg-page, .dsh-page {
+  min-height: 70vh;
+}
+.reg-page {
+  height: 90vh;
+  display: flex;
+}
+.reg-content {
+  height: 100%;
+  width: 50%;
+}
+.reg-poster {
+  height: 100%;
+  width: 50%;
+}
+.reg-img-wrap {
+  height: 26rem;
+  width: 26rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(65,0,57);
+  background: linear-gradient(143deg, rgb(40, 0, 35) 0%, rgba(255, 46, 224, 0.625) 70%);
+  box-shadow: 0px 0px 80px 30px rgba(247, 148, 254, 0.307);
+}
+.reg-img {
+  height: 25rem;
+  width: 25rem;
+  border-radius: 100%;
+  object-fit: scale-down;
+  background-color: #030408;
+}
+.reg-poster {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('./images/bg-nebula.jpg');
+}
+.reg-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+.form-control {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: rgba(255, 255, 255, 0.236);  
+    backdrop-filter: blur(5px);
+    width: 100%;
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 60px;
+    color: #fff;
+  
+}
+.form-control::placeholder {
+  color: #fff;
+}
+.form-group .btn-pink-solid {
+  text-decoration: none;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+.form {
+  width: 50%;
+  margin-top: 1.5rem;
+}
+.form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.heading {
+  width: 50%;
+  font-size: 20px;
+}
+.heading h1 {
+  font-size: 30px;
+}
+#log-poster {
+  background: url('./images/log-poster.jpg');
+  background-size: cover;
+  background-position: center;
+}

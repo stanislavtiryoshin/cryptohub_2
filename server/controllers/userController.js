@@ -75,6 +75,26 @@ const getMe = asyncHandler(async (req, res) => {
   res.status(200).json(req.user)
 })
 
+// @desc    Follow coin
+// @route   PUT /api/users/follow
+// @access  Private
+const followCoin = asyncHandler(async (req, res) => {
+  const { email, coinId } = req.body
+  await User.findOneAndUpdate({ email }, 
+    {
+      $push:{followedCoins: coinId}
+    }, 
+    { 
+      new:true
+    }, 
+    (err,result)=>{
+      if (err) {
+        return res.status(422).json({error:err})
+      }  
+    }
+  )
+})
+
 // Generate JWT
 const generateToken = (id) => {
   return jwt.sign({ id }, process.env.JWT_SECRET, {
@@ -86,4 +106,5 @@ module.exports = {
   registerUser,
   loginUser,
   getMe,
+  followCoin
 }

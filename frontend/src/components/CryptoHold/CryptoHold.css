@@ -1,0 +1,71 @@
+.held-card {
+  width: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+  position: relative;
+}
+.held-heading {
+  display: flex;
+  align-items: center;
+  width: 13%;
+  gap: 1rem;
+}
+.held-heading p {
+}
+.held-card p {
+  width: 13%;
+}
+.held-table-head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px #fff;
+}
+.held-table-head p {
+  width: 13%;
+}
+.btn-delete {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+.held-chart-box {
+  display: flex;
+  justify-content: center;
+}
+.held-chart {
+  width: 30%;
+}
+.held-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+.held-table {
+  width: 100%;
+}
+.btn-delete {
+  position: absolute;
+  right: -5%;
+  top: 0%;
+}
+.held-section h2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding: 0 4rem;
+}
+.dash-pie-chart {
+  width: 100%;
+}
+.followed-section h2 {
+  padding: 0 5rem;
+}

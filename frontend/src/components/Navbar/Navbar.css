@@ -1,0 +1,112 @@
+:root {
+  --bg: rgb(18, 11, 36);
+  --bg-dark: rgb(10, 6, 20);
+  --txt: rgb(217, 217, 217);
+  --txt-pink: rgb(173, 2, 167);
+  --gold: rgb(239, 203, 44);
+ }
+
+.logo {
+  font-family: 'Titillium Web', sans-serif;
+  color: rgb(239, 203, 44);
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+.logo font {
+  color: var(--txt);
+}
+.logo img {
+  width: 3.5rem;
+  margin-right: 0.5rem;
+}
+nav{
+  padding: 0 5rem 0 16rem;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+  color: var(--txt);
+}
+li:last-child a {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  color: var(--txt);
+  padding: 0.5rem 1.5rem;
+  border-radius: 15px;
+  background: rgb(65,0,57);
+  background: linear-gradient(143deg, rgb(77, 17, 123) 0%, rgba(255, 46, 224, 0.625) 70%);
+}
+li a:hover, li a.active {
+  color: var(--txt-pink);
+}
+li:last-child a:hover, li:last-child a.active {
+  background: rgb(217, 0, 159);
+  box-shadow: 0px 0px 30px 15px rgba(201, 2, 214, 0.2);
+  color: var(--txt);
+}
+.menu-icon {
+  display: none;
+}
+.menu-icon .fas.fa-times {
+  transform: rotate(360deg);
+  transition: all 0.5s ease-in-out;
+}
+.menu-icon .fas.fa-bars {
+  transform: rotate(180deg);
+  transition: all 0.5s ease-in-out;
+}
+
+/********************************** Media Queries ***********************************/
+
+@media screen and (max-width: 950px) {
+  nav {
+    padding: 0 3rem;
+    position: relative;
+  }
+}
+@media screen and (max-width: 800px) {
+  .menu-icon {
+    display: flex;
+    align-items: center;
+  }
+  .menu-list {
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 10vh;
+    padding: 3rem 0 4rem;
+    background-color: rgba(32, 19, 65, 0.538);
+    transition: all 0.5s ease-in-out;
+  }
+  .menu-list.closed {
+    right: -100%;
+    transition: all 0.5s ease-in-out;
+  }
+  .logo {
+    font-size: 1.3rem;
+  }
+  .logo img {
+    width: 2.5rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  nav {
+    padding: 0 1rem;
+  }
+}

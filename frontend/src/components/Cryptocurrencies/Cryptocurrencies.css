@@ -1,0 +1,140 @@
+:root {
+  --bg: rgb(18, 11, 36);
+  --bg-dark: rgb(10, 6, 20);
+  --txt: #fff;
+  --blue: rgb(123, 210, 213);
+  --dark-blue: #1e5688;
+  --txt-pink: rgb(173, 2, 167);
+  --gold: rgb(255, 208, 0);
+}
+.currencies-box {
+  margin-bottom: 5rem;
+}
+.crypto-card-box {
+  padding: 0 5rem;
+  display: grid;
+  grid-template-columns: 23% 23% 23% 23%;
+  gap: 2rem;
+}
+.crypto-card-box a {
+  text-decoration: none;
+  color: inherit;
+  z-index: 0;
+  border-radius: 80px;
+}
+.crypto-container {
+  position: relative;
+  border-radius: 80px;
+}
+.crypto-container:hover {
+  transition: transform 0.1s ease-in-out;
+  transform: translateY(-5px);
+}
+.crypto-card {
+  padding: 2rem;
+  border-radius: 80px;
+  background-color: #030408;
+  transform: translateY(0%);
+  transition: transform 0.1s ease-in-out;
+  z-index: 0;
+}
+.crypto-card-wrap:hover {
+  box-shadow: 0px 0px 15px 3px rgba(195, 57, 174, 0.625);
+}
+.crypto-card-wrap {
+  padding: 7px;
+  background: rgb(65,0,57);
+  background: linear-gradient(143deg, rgb(90, 0, 60) 0%, rgba(255, 92, 230, 0.625) 70%);
+  border-radius: 85px;
+  z-index: 0;
+}
+.crypto-card-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+.crypto-card-heading img {
+  width: 2rem;
+  height: 2rem;
+}
+.crypto-card-heading font {
+  color: var(--gold);
+}
+.crypto-card p {
+  margin-bottom: 1rem;
+}
+.search {
+  width: 100%;
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+}
+.search input {
+  font-family: 'Titillium Web', sans-serif;
+  background-color: rgba(255, 255, 255, 0.236);  
+  backdrop-filter: blur(5px);
+  width: 30%;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 60px;
+  color: #fff;
+}
+.search input::placeholder {
+  color: #fff;
+}
+.clear-btn {
+  border: none;
+  background: transparent;
+}
+.clear-btn:hover {
+  cursor: pointer;
+}
+.btn-follow {
+  background: none;
+  border: none; 
+  position: absolute;
+  z-index: 10;
+  bottom: 2rem;
+  right: 2rem;
+}
+.pages-box {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+.btn-page {
+  background: none;
+  border: none;
+  color: #fff;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  width: 1.7rem;
+  height: 1.76rem;
+  border-radius: 100%;
+}
+.btn-page:hover {
+  color: #030408;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 100%;
+}
+.btn-page.active {
+  background-color: rgba(255, 255, 255, 1);
+  color: #030408;
+}
+.currencies-page h1 {
+  color:rgb(255, 208, 0);
+  text-align: center;
+}
+.negat {
+  color: rgb(255, 0, 85);
+}
+.posit {
+  color: rgb(0, 202, 98);
+}
+.neutr {
+  color: #fff;
+}

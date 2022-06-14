@@ -1,0 +1,85 @@
+:root {
+  --bg: rgb(18, 11, 36);
+  --bg-dark: rgb(10, 6, 20);
+  --txt: #fff;
+  --blue: rgb(123, 210, 213);
+  --dark-blue: #1e5688;
+  --txt-pink: rgb(173, 2, 167);
+  --gold: rgb(239, 203, 44);
+}
+.crypto-news-box {
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2rem;
+}
+.crypto-news-box a {
+  text-decoration: none;
+  color: #fff;
+  border-radius: 65px;
+}
+.crypto-news-card:hover {
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.252);
+  background-color: rgba(255, 255, 255, 0.162);  
+  transform: translateY(-10px);
+}
+.crypto-news-card {
+  background-color: rgba(255, 255, 255, .15);  
+  backdrop-filter: blur(5px);
+  border-radius: 60px;
+  padding: 2rem;
+  transform: translateY(0%);
+  transition: transform 0.1s ease-in-out;
+}
+.crypto-news-card img{
+  height: 5.5rem;
+  width: 5.5rem;
+  position: relative;
+}
+.crypto-news-card h3{
+  font-size: 16px;
+}
+.crypto-news-card p {
+  font-size: 14px;
+}
+.crypto-news-card a {
+  text-decoration: none;
+  color: #fff;
+}
+.crypto-news-card a:hover {
+  color: var(--blue)
+}
+.news-card-heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  color: var(--gold)
+}
+.news-card-desc {
+  margin-bottom: 3rem;
+}
+.news-card-src {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #fff;
+  padding-top: 0.5rem;
+}
+.src-name {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 6px;
+}
+.src-name img {
+  height: 1.5rem;
+  width: 1.5rem;
+  size: cover;
+  border-radius: 100%;
+}
+.news-page h1 {
+  color:rgb(239, 203, 44);
+  text-align: center;
+  padding: 5rem 0 0;
+}

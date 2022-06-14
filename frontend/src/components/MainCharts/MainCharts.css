@@ -1,0 +1,91 @@
+.main-charts-section {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-bottom: 3rem;
+}
+.main-chart {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  border-radius: inherit;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url('../../images/bg-nebula.jpg');
+}
+.main-chart.btc {
+  background-position: -70%;
+}
+.main-chart.eth {
+  background-position: 30%;
+}
+.main-chart.teth {
+  background-position: 40%;
+}
+.main-chart-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  border-radius: inherit;
+  background-color: rgba(26, 0, 51, 0.73);
+}
+.main-chart h3 {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  text-align: center;
+  border-radius: inherit;
+}
+.main-chart img {
+  width: 2rem;
+  height: 2rem;
+}
+.main-chart-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 22rem;
+  height: 100%;
+  border-radius: 100px;
+  background-color: rgb(20, 2, 20);
+}
+.main-chart-content {
+  width: 100%;
+  height: 40%;
+  padding: 3rem;
+  text-align: center;
+  border-radius: inherit;
+}
+.main-chart-box-wrap {
+  border-radius: 105px;
+  padding: 0.5rem;
+  background: rgb(65,0,57);
+  background: linear-gradient(143deg, rgb(77, 17, 123) 0%, rgba(255, 46, 224, 0.625) 70%);
+  transform: scale(100%);
+  transition: all 0.5s ease-in-out ;
+}
+.main-chart-box-wrap.btc {
+  transform: scale(115%);
+  box-shadow: 0px 0px 10px 5px rgba(201, 2, 214, 0.2)
+}
+.main-chart-box-wrap.btc:hover {
+  transform: scale(120%);
+}
+.main-chart-box-wrap:hover {
+  transform: scale(110%);
+  box-shadow: 0px 0px 30px 10px rgba(201, 2, 214, 0.2)
+}
+.main-chart-head a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.85);
+}
