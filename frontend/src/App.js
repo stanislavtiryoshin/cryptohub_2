@@ -45,7 +45,6 @@ function App() {
           <Route path='/news' element={<NewsPage />} />
           <Route path='/crypto/:coinId' element={<CryptoDetailsPage followedCoins={followedCoins} />} />
           <Route path='/register' element={<RegisterPage />} />
-          <Route path='/login' element={<LoginPage />} />
           <Route path='/' element={<DashboardPage followedCoins={followedCoins} />} />
         </Routes>
         <Footer />
