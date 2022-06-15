@@ -166,10 +166,6 @@ function DashboardPage({followedCoins}) {
 
   return (
     <section className='dsh-page'>
-      <section className='welcome-section' >
-        <h1>Welcome, {user && user.name}!</h1>
-        <button className='btn-pink-solid' onClick={onLogout}>Logout</button>
-      </section>
 
       <div className="held-chart-box">
         {
