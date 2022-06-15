@@ -16,8 +16,8 @@ export const MenuList = [
     url: '/news',
   },
   {
-    title: 'Login',
-    url: '/login'
+    title: 'Dashboard',
+    url: '/'
   },
   {
     title: 'Register',
