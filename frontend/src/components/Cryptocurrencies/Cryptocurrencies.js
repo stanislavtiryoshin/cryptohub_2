@@ -17,7 +17,6 @@ const Cryptocurrencies = ({ simplified, followedCoins}) => {
 
   const pages = [1,2,3,4,5]
   const [currPage, setCurrPage] = useState(1)
-  console.log(currPage)
   
   const [searchTerm, setSearchTerm] = useState('')
   const [cryptos, setCryptos] = useState();

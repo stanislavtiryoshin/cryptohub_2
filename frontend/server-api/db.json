@@ -10,72 +10,6 @@
       "marketCap": "523760795788",
       "change": "-5.15",
       "id": "Qwsogvtv82FCd"
-    },
-    {
-      "uuid": "HIVsRcGKkPFtW",
-      "rank": 3,
-      "name": "Tether USD",
-      "iconUrl": "https://cdn.coinranking.com/mgHqwlCLj/usdt.svg",
-      "symbol": "USDT",
-      "price": "1.0058844738117019",
-      "marketCap": "72921576267",
-      "change": "0.32",
-      "id": "HIVsRcGKkPFtW"
-    },
-    {
-      "uuid": "aKzUVe4Hh_CON",
-      "rank": 4,
-      "name": "USDC",
-      "iconUrl": "https://cdn.coinranking.com/jkDf8sQbY/usdc.svg",
-      "symbol": "USDC",
-      "price": "1.0053104905111971",
-      "marketCap": "54467164817",
-      "change": "-0.16",
-      "id": "aKzUVe4Hh_CON"
-    },
-    {
-      "uuid": "WcwrkfNI4FUAe",
-      "rank": 5,
-      "name": "Binance Coin",
-      "iconUrl": "https://cdn.coinranking.com/B1N19L_dZ/bnb.svg",
-      "symbol": "BNB",
-      "price": "228.82764350157487",
-      "marketCap": "33599034447",
-      "change": "-3.97",
-      "id": "WcwrkfNI4FUAe"
-    },
-    {
-      "uuid": "25W7FG7om",
-      "rank": 11,
-      "name": "Polkadot",
-      "iconUrl": "https://cdn.coinranking.com/RsljYqnbu/polkadot.svg",
-      "symbol": "DOT",
-      "price": "7.323721440727554",
-      "marketCap": "8026646172",
-      "change": "8.91",
-      "id": "25W7FG7om"
-    },
-    {
-      "uuid": "x4WXHge-vvFY",
-      "rank": 14,
-      "name": "Wrapped BTC",
-      "iconUrl": "https://cdn.coinranking.com/o3-8cvCHu/wbtc[1].svg",
-      "symbol": "WBTC",
-      "price": "22182.53510293276",
-      "marketCap": "6023699879",
-      "change": "-5.26",
-      "id": "x4WXHge-vvFY"
-    },
-    {
-      "uuid": "razxDUgYGNAdQ",
-      "rank": 2,
-      "name": "Ethereum",
-      "iconUrl": "https://cdn.coinranking.com/rk4RKHOuW/eth.svg",
-      "symbol": "ETH",
-      "price": "1225.601218297502",
-      "marketCap": "148053628327",
-      "change": "0.59",
-      "id": "razxDUgYGNAdQ"
     }
   ],
   "held_coins": [
@@ -89,50 +23,6 @@
       "sum": 10000,
       "amount": 0.3640202395253176,
       "id": "Qwsogvtv82FCd"
-    },
-    {
-      "uuid": "razxDUgYGNAdQ",
-      "rank": 2,
-      "name": "Ethereum",
-      "iconUrl": "https://cdn.coinranking.com/rk4RKHOuW/eth.svg",
-      "symbol": "ETH",
-      "price": "1464.1987702724066",
-      "sum": 1000,
-      "amount": 0.6830601092896175,
-      "id": "razxDUgYGNAdQ"
-    },
-    {
-      "uuid": "HIVsRcGKkPFtW",
-      "rank": 3,
-      "name": "Tether USD",
-      "iconUrl": "https://cdn.coinranking.com/mgHqwlCLj/usdt.svg",
-      "symbol": "USDT",
-      "price": "1.0058844738117019",
-      "sum": 1500,
-      "amount": 1500,
-      "id": "HIVsRcGKkPFtW"
-    },
-    {
-      "uuid": "aKzUVe4Hh_CON",
-      "rank": 4,
-      "name": "USDC",
-      "iconUrl": "https://cdn.coinranking.com/jkDf8sQbY/usdc.svg",
-      "symbol": "USDC",
-      "price": "1.0053104905111971",
-      "sum": 3000,
-      "amount": 3000,
-      "id": "aKzUVe4Hh_CON"
-    },
-    {
-      "uuid": "x4WXHge-vvFY",
-      "rank": 14,
-      "name": "Wrapped BTC",
-      "iconUrl": "https://cdn.coinranking.com/o3-8cvCHu/wbtc[1].svg",
-      "symbol": "WBTC",
-      "price": "22182.53510293276",
-      "sum": 40000,
-      "amount": 1.803263907672888,
-      "id": "x4WXHge-vvFY"
     }
   ],
   "fiat": [
@@ -143,6 +33,78 @@
     {
       "id": 1,
       "fiat": 100000
+    }
+  ],
+  "posts": [
+    {
+      "id": 0,
+      "tag": "BTC",
+      "text": "zalupa totalnaya"
+    },
+    {
+      "id": 1,
+      "tag": "ETH",
+      "text": "isho odna"
+    },
+    {
+      "id": "a490905c-895d-4d31-bc89-f6f7b049a96f",
+      "tag": "RRR",
+      "text": "sdf"
+    },
+    {
+      "id": "24926f6c-0414-40d5-baf9-cadde38cc5f9",
+      "tag": "BTC",
+      "text": "asdfasdf"
+    },
+    {
+      "id": "db148d0d-5610-4947-96d4-820fedf6a33d",
+      "tag": "ETH",
+      "text": "sdfaweweqwreqwer"
+    },
+    {
+      "id": "b60ba982-63c7-435c-94fb-f6ddb1ee6b78",
+      "tag": "ETH",
+      "text": "sdfadfs"
+    },
+    {
+      "id": "ba3fb3a7-e4ea-4655-9a95-2db848d4d461",
+      "tag": "XMR",
+      "text": "qweqweqweqeqe"
+    },
+    {
+      "id": "b4cfcb14-7ad5-497d-919b-91ad45b88bdb",
+      "tag": "USDT",
+      "text": "sd121123132"
+    },
+    {
+      "id": "50383e4e-c503-4d46-9c97-c93a27597782",
+      "tag": "LUNC",
+      "text": "12345675"
+    },
+    {
+      "id": "7500c734-770d-4efb-ac82-241980c55cea",
+      "tag": "ETH",
+      "text": "qweqweqweqwe"
+    },
+    {
+      "id": "dedf2cbe-6b85-44ac-b786-01710d5fd92d",
+      "tag": "BTC",
+      "text": "dsfgsd fsdfg dsfg dfsg dfsg  sdfg  sdfg  sdfg  dfs g sdfg  dsfg dsfg dsg ds dfg dfs"
+    },
+    {
+      "id": "72e52c2a-c2d6-42b3-9489-20081f22ef04",
+      "tag": "BUSD",
+      "text": "wrwerwer rw  sdf  ;dkldg sdfg"
+    },
+    {
+      "id": "60ed5f15-e201-42bc-9b45-5f4f0e6de24e",
+      "tag": "ACM",
+      "text": "is going down BOOOOO!"
+    },
+    {
+      "id": "037f6df1-74e4-4ce5-9525-ba3eaa8306bb",
+      "tag": "BTC",
+      "text": "sucks!!!!"
     }
   ]
 }

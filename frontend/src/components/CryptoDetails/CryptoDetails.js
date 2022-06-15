@@ -5,6 +5,7 @@ import { Interweave } from 'interweave';
 import api from '../../api/coins'
 import LineChart from '../LineChart/LineChart';
 import Loader from '../Loader/Loader'
+import Forum from '../Forum/Forum';
 
 import { useGetCryptoHistoryQuery, useGetCryptoDetailsQuery } from '../../services/cryptoApi'
 
@@ -133,6 +134,8 @@ const CryptoDetails = ({ followedCoins }) => {
       </div>
 
     </div>
+
+    <Forum coinTag={cryptoDetails?.symbol} />
 
     <div className="details-desc">
 

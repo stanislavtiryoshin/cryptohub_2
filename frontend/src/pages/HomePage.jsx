@@ -9,6 +9,7 @@ import Cryptocurrencies from '../components/Cryptocurrencies/Cryptocurrencies';
 import Exchanges from '../components/Exchanges/Exchanges';
 import News from '../components/News/News';
 import MainCharts from '../components/MainCharts/MainCharts';
+import Forum from '../components/Forum/Forum';
 
 import api from '../api/coins'
 
@@ -28,8 +29,6 @@ const HomePage = ({followedCoins}) => {
     }
     getDisplayedCoins()
   }, [])
-
-  console.log(displayedCoins)
   
   return (
     <>
@@ -47,6 +46,10 @@ const HomePage = ({followedCoins}) => {
         <Link to='/currencies'>Show more</Link>
       </div>
       <Cryptocurrencies simplified={true} followedCoins={displayedCoins} />
+      <div className="home-title">
+        <h2>Forum</h2>
+      </div>
+      <Forum />
       <div className="home-title">
         <h2>Freshest News</h2>
         <Link to='/news'>Show more</Link>

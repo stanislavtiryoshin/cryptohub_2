@@ -9,12 +9,13 @@ import './CryptoHold.css'
 
 import { useGetCryptoDetailsQuery } from '../../services/cryptoApi'
 
-const CryptoHold = ({ getCurrValues, rank, symbol, amount, price, sum, id }) => {
+const CryptoHold = ({ updateHeldCoins, rank, symbol, amount, price, sum, id }) => {
   const { data, isFetching } = useGetCryptoDetailsQuery(id)
   const currentPrice = data?.data?.coin?.price
 
   const deleteCoin = async () => {
     await api.delete(`/held_coins/${id}`)
+    updateHeldCoins()
   }
 
     /** Change Color */

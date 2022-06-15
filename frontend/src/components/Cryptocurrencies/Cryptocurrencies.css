@@ -38,15 +38,16 @@
   transition: transform 0.1s ease-in-out;
   z-index: 0;
 }
-.crypto-card-wrap:hover {
-  box-shadow: 0px 0px 15px 3px rgba(195, 57, 174, 0.625);
-}
 .crypto-card-wrap {
   padding: 7px;
   background: rgb(65,0,57);
   background: linear-gradient(143deg, rgb(90, 0, 60) 0%, rgba(255, 92, 230, 0.625) 70%);
   border-radius: 85px;
   z-index: 0;
+}
+.crypto-card-wrap:hover {
+  background: rgb(218, 0, 193);
+  box-shadow: 0px 0px 15px 3px rgba(195, 57, 174, 0.625);
 }
 .crypto-card-heading {
   display: flex;

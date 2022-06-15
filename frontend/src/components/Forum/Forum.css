@@ -1,0 +1,123 @@
+.posts-section {
+  padding: 0 5rem;
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.posts-section h1 {
+  font-size: 30px;
+  color: gold;
+  text-align: center;
+}
+.posts-section h2 {
+  font-size: 28px;
+  color: gold;
+}
+.posts-section.simple {
+  min-height: 0;
+  height: 50vh;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+.posts-section.simple .posts-box {
+  padding: 1rem 3rem;
+}
+.posts-card {
+  padding: 2rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #030408;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3rem;
+  border-radius: 80px;
+}
+.posts-card-wrap {
+  padding: 0.5rem;
+  border-radius: 85px;
+  background: rgb(65,0,57);
+  background: linear-gradient(143deg, rgb(40, 0, 35) 0%, rgba(255, 46, 224, 0.625) 70%);
+  transform: translateY(0px);
+  transition: transform 0.1s ease-in-out;
+}
+.posts-card-wrap:hover {
+  transform: translateY(-3px);
+  background: rgb(145, 0, 128);
+  box-shadow: 0px 0px 10px 10px rgba(201, 2, 214, 0.2)
+}
+.posts-box {
+  padding: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 23% 23% 23% 23%;
+  gap: 2rem;
+}
+.posts-text {
+  width: 100%;
+}
+.posts-box {
+  max-height: 75vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.posts-box::-webkit-scrollbar {
+  width: 10px;
+}
+.posts-box::-webkit-scrollbar-track {
+  background-color: rgba(165, 0, 82, 0.277);
+  border-radius: 10px;
+}
+.posts-box::-webkit-scrollbar-thumb {
+  background-color: rgb(165, 0, 83);
+  width: 8px;
+  border-radius: 10px;
+}
+.posts-tag {
+  color: gold;
+  cursor: pointer;
+}
+.posts-tag:hover {
+  text-decoration: underline;
+}
+.posts-input .btn-pink-solid{
+  font-family: 'Titillium Web', sans-serif;
+  width: 5rem;
+  padding: 0.5rem;
+}
+.posts-input input {
+  font-family: 'Titillium Web', sans-serif;
+  border-radius: 60px;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.366);  
+  backdrop-filter: blur(5px);
+  color: #fff;
+}
+.posts-input input::placeholder {
+  color: #fff;
+}
+.posts-input form {
+  display: flex;
+  gap: 1rem;
+}
+.posts-input {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 1rem;
+}
+#btn-clear {
+  background: rgb(107, 0, 54);
+  background: linear-gradient(143deg, rgb(107, 0, 54) 0%, rgb(255, 46, 105) 70%);
+}
+#btn-clear:hover {
+  background: rgb(255, 46, 105);
+  box-shadow: 0px 0px 10px 10px rgba(255, 46, 105, 0.138)
+}
+#text-input {
+  width: 20rem;
+}

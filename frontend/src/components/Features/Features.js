@@ -29,7 +29,6 @@ const Features = () => {
           CryptoHub's Features
       </h1>
       <div className="menu-box-wrap">
-        
           {displayedItem}
         </div>
       <div className="features-menu">

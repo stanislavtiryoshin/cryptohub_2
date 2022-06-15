@@ -5,7 +5,7 @@ const ExchangesItem = () => {
   return (
     <div className="features-menu-box">
     <div className="features-item">
-      <div className="item-heading">
+      <div className="item-heading" id='exc'>
         <FundFilled style={{fontSize: '600%', color: 'rgba(255, 255, 255, 0.7)'}} />
         <h1>Exchanges</h1>
       </div>

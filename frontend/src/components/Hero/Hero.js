@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import logo from '../../images/cryptohub.png'
+import astr from '../../images/astr.png'
 import './Hero.css'
 
 const Hero = () => {
@@ -11,7 +12,9 @@ const Hero = () => {
       <div className='hero-img-box'>
         <div className="hero-img-dec">
           <div className="hero-img-border">
-            <div className="hero-img"></div>
+            <div className="hero-img">
+              <img src={astr} alt="hero astronaut" className='hero-astr'/>
+            </div>
             <img src={logo} alt="logo" className="hero-logo" />
           </div>
         </div>
