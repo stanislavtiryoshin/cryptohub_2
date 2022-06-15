@@ -1,6 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
 
-import authReducer from '../features/auth/authSlice'
 import followReducer from '../features/follow/followSlice'
 import { cryptoApi } from "../services/cryptoApi";
 import { cryptoNewsApi } from "../services/cryptoNewsApi";
