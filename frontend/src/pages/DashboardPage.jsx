@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useSelector, useDispatch } from 'react-redux'
-import { logout, reset } from '../features/auth/authSlice'
 import CryptoFollowed from '../components/CryptoFollowed/CryptoFollowed'
 import CryptoHold from '../components/CryptoHold/CryptoHold'
 import DashPieChart from '../components/PieChart/DashPieChart'
@@ -11,17 +10,6 @@ import { ReloadOutlined } from '@ant-design/icons'
 import api from '../api/coins'
 
 function DashboardPage({followedCoins}) {
-  const navigate = useNavigate()
-  const dispatch = useDispatch()
-
-  const { user } = useSelector((state) => state.auth)
-
-  const onLogout = () => {
-    dispatch(logout())
-    dispatch(reset())
-    navigate('/home')
-  }
-
   /** Followed Coins **/
 
   const [displayedCoins, setDisplayedCoins] = useState([])
