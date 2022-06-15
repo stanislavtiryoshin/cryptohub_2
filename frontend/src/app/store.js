@@ -9,7 +9,6 @@ import { cryptoExchangesApi} from "../services/cryptoExchangesApi"
 export const store = configureStore({
   reducer: {
     follow: followReducer,
-    auth: authReducer,
     [cryptoApi.reducerPath]: cryptoApi.reducer,
     [cryptoNewsApi.reducerPath]: cryptoNewsApi.reducer,
     [cryptoExchangesApi.reducerPath]: cryptoExchangesApi.reducer,
